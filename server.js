@@ -7,7 +7,7 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const JWT_SECRET = 'sdjkfh8923yhjdksbfma@#*(&@*!^#&@bhjb2qiuhesdbhjdsfg839ujkdhfjk'
 
-mongoose.connect('mongodb://127.0.0.1:27017/newlogin', {
+mongoose.connect('mongodb://0.0.0.0:27017/newlogin', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 	useCreateIndex: true
